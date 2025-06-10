@@ -13,8 +13,7 @@ app = dash.Dash(
 )
 
 ## CAMBIAR EL TITULO DEL TABLERO
-
-app.title = "Dashboard energia - Sharon"
+app.title = "Dashboard energia"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
