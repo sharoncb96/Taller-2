@@ -7,13 +7,15 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
+## NUEVO COMENTARIO - VERIFICAR SINCRONIZACIÓN
+
 app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 
 ## CAMBIAR EL TITULO DEL TABLERO
-app.title = "Dashboard energia"
+app.title = "Dashboard energia - SHARON"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
