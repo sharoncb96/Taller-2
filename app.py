@@ -8,6 +8,7 @@ import pandas as pd
 import datetime as dt
 
 ## NUEVO COMENTARIO - VERIFICAR SINCRONIZACIÓN
+# Cambio colaborativo - Felipe Castro 
 
 app = dash.Dash(
     __name__,
